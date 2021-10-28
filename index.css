@@ -1,0 +1,12 @@
+* {
+    font-family: monospace;
+}
+tr:hover {
+background-color: lightslategrey;
+-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 7px 4px 1px rgba(0,0,0,0.51); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 7px 4px 1px rgba(0,0,0,0.51);
+}
+
+#total {
+    text-align: right;
+}

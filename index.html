@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--The Head element holds meta data--> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvador's Deli</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<!--Data that you'll be presenting-->
+<body>
+  <div class="container">
+      <h1>Salvador's Deli</h1>
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-9">
+            <table class="table">  
+                <thead>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                </thead>
+                <tbody>
+                     <tr id="Pastrami">
+                        <td>Pastrami</td>
+                        <td class="price">$7.00</td>
+                        <td>Goes great on Rye</td>
+                        <td><input type="number" name="" id="" class="form-control quantity"></td>
+                        <td><input type="button" value="Buy" class="btn btn-success" onclick="buy('Pastrami')"></td>
+                     </tr> 
+                     <tr id="Salami">
+                         <td>Salami</td>
+                         <td class="price">$6.50</td>
+                         <td>The patrician's choice</td>
+                         <td><input type="number" name="" id="" class="form-control quantity"></td>
+                         <td><input type="button" value="Buy" class="btn btn-success" onclick="buy('Salami')"></td>
+                     </tr> 
+                     <tr id="RoastBeef">
+                         <td>Roast Beef</td>
+                         <td class="price">$7.50</td>
+                         <td>Arby's sells this</td>
+                         <td><input type="number" name="" id="" class="form-control quantity"></td>
+                         <td><input type="button" value="Buy" class="btn btn-success" onclick="buy('Roast Beef')"></td>
+                     </tr> 
+                     <tr id="Ham">
+                         <td>Ham</td>
+                         <td class="price">$6.00</td>
+                         <td>Classic, but lacking immagnation</td>
+                         <td><input type="number" name="" id="" class="form-control quantity"></td>
+                         <td><input type="button" value="Buy" class="btn btn-success" onclick="buy('Ham')"></td>
+                     </tr> 
+                     <tr id="Pepperoni">
+                         <td>Pepperoni</td>
+                         <td class="price">$5.00</td>
+                         <td>This goes on pizza</td>
+                         <td><input type="number" name="" id="" class="form-control quantity"></td>
+                         <td><input type="button" value="Buy" class="btn btn-success" onclick="buy('Pepperoni')"></td>
+                     </tr>
+                </tbody>
+            </table>
+          </div>
+          <div class="col">
+              <h5>Your Cart</h5>
+              <table class="table" id="cart">
+                  <thead>
+                      <th>Product</th>
+                      <th>Quantity</th>
+                      <th>Price</th>
+                      <th>Subtotal</th>
+                  </thead>
+                  <tbody>
+                    
+                  </tbody>
+                     
+              </table>
+                    <p id="total"></p>
+              <button class="btn btn-secondary" onclick="checkout()">Checkout</button>
+          </div>
+      </div>
+    
+  </Div>
+  <script src="index.js"></script>
+</body>
+</html>
