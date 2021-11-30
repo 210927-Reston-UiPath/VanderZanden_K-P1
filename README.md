@@ -20,5 +20,13 @@ To-Do List:
   * Replace hardcoded activities with dynamic ones
   * Clean up SQL DB
 
-## Getting Started
-  * 
+## Getting Started/Usage
+  * Click green code button
+  * Download zip 
+  * Unzip files
+  * Open AddClients, AddToShoppingListDeli, AddToShoppingListPega, BuyFromDeli, and BuyFromPega workflows in UiPath Studio
+  * Run each workflow independently
+
+## License
+This program uses the following license: 
+UiPath Academic Alliance Studio 2020.10
