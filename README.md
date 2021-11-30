@@ -5,3 +5,7 @@ This project places orders for clients on two different sites: the Salvador's De
 
 ## Technologies Used
   * UiPath Studio
+  * PostgreSQL
+  * HTML, CSS, & JS
+ 
+## Features
